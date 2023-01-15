@@ -64,6 +64,8 @@ const Register = () => {
             <h1 className='text-xl font-semibold text-red-500 md:text-3xl md:py-5'>How to enroll course ?</h1>
             <h3 className='text-lg font-mono md:py-2'>This is 3 step process</h3>
 
+            <h1 className='text-xl font-bold lg:text-2xl'>Please Read Carefully and do not upload fake screenshot Otherwise your Registration not acceptable</h1>
+
             <din className="flex flex-col gap-5 md:gap-8 py-2 md:py-5">
                 <hr />
                 <div>

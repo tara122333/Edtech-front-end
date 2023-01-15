@@ -11,9 +11,8 @@ const Video = (props) => {
                 allowFullScreen
                 className='absolute top-0 left-0 w-full h-full lg:top-6'
                 title="3167605198.mp4">
-
                 </iframe>
-                </div>
+            </div>
         </div>
 
     </>

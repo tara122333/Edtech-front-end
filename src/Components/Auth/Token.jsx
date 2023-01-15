@@ -75,7 +75,6 @@ export default function Token({isOpen,setIsOpen}) {
                   </Dialog.Title>
                   <div>
                   <div className='flex flex-col gap-5 my-5'>
-                  <form className="flex flex-col gap-3">
                             <div className=" w-full flex flex-col gap-2">
                                 <span>Token</span>
                                 <input type="text" 
@@ -91,9 +90,7 @@ export default function Token({isOpen,setIsOpen}) {
                             <div onClick={submit} className="w-full  text-center bg-red-500 text-white py-2 rounded-lg cursor-pointer">
                                 Access
                             </div>
-                        </form>
-                  </div>
-
+                        </div>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>

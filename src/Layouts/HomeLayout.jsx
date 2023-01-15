@@ -8,7 +8,7 @@ const HomeLayout = (props) => {
   return (
     <>
         <HomeNavbar />
-        <StudentTabs />
+        {/* <StudentTabs /> */}
         {props.children}
         {/* <h1>Footer</h1> */}
     </>

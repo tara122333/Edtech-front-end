@@ -13,8 +13,6 @@ export default function Token({isOpen,setIsOpen}) {
         [e.target.id] : e.target.value
     }));
 
-    // const notify = () => toast("Invalid Token");
-
     const submit = () => {
 
       if(tokenData.user_token === "TARA"){
@@ -71,24 +69,29 @@ export default function Token({isOpen,setIsOpen}) {
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
                   >
-                    User SignIn
+                    User Access Tab
                   </Dialog.Title>
                   <div>
                   <div className='flex flex-col gap-5 my-5'>
                             <div className=" w-full flex flex-col gap-2">
-                                <span>Token</span>
+                                <span className='text-lg font-semibold'>Enter Token</span>
                                 <input type="text" 
                                 name="user_token" 
                                 id="user_token"
                                 value={tokenData.user_token} 
                                 onChange={handleChange}
                                 placeholder="TXR****T"
-                                className="w-full border border-gray-400 px-3 py-2 rounded-lg focus:border-red-500"
+                                className="w-full border px-3 py-2 rounded-lg focus:border-red-500 border-purple-500 outline-purple-500"
                                 />
                             </div>
 
-                            <div onClick={submit} className="w-full  text-center bg-red-500 text-white py-2 rounded-lg cursor-pointer">
-                                Access
+                            <div className='flex gap-3'>
+                              <div onClick={submit} className="w-full text-center bg-purple-500 text-white py-2 rounded-lg cursor-pointer font-semibold">
+                                  Access
+                              </div>
+                              <a href=' https://docs.google.com/forms/u/0/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/alreadyresponded?usp=sf_link' target={"_blank"} className='w-full text-center bg-purple-500 text-white py-2 rounded-lg cursor-pointer font-semibold'>
+                                  Generate Token
+                              </a>
                             </div>
                         </div>
                   </div>

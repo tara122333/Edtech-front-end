@@ -40,13 +40,6 @@ const CoreJavaCourse = () => {
         {id === "26" && <Video video = "686570362?h=bcb2adb46c" />}
         {id === "27" && <Video video = "686570362?h=bcb2adb46c" />}
         {id === "28" && <Video video = "686570362?h=bcb2adb46c" />}
-        {id === "29" && <Video video = "686570362?h=bcb2adb46c" />}
-        {id === "30" && <Video video = "686570362?h=bcb2adb46c" />}
-        {id === "31" && <Video video = "686570362?h=bcb2adb46c" />}
-        {id === "32" && <Video video = "686570362?h=bcb2adb46c" />}
-        {id === "33" && <Video video = "686570362?h=bcb2adb46c" />}
-        {id === "34" && <Video video = "686570362?h=bcb2adb46c" />}
-        {id === "35" && <Video video = "686570362?h=bcb2adb46c" />}
       </div>
     <ToastContainer />
     </>

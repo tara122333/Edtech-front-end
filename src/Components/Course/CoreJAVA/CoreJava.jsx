@@ -21,250 +21,200 @@ const CoreJava = () => {
     const CoreJAVADetails = [
         {
             id: "01",
-            title : "What is C++",
+            title : "What is Java",
             isActive: currentPath.includes("01"),
             
         },
         {
             id: "02",
-            title : "Introduction to C++",
+            title : "Features of Java",
             isActive: currentPath.includes("02"),
             
             
         },
         {
             id: "03",
-            title : "Arrays",
+            title : "Installing and Configuration Java",
             isActive: currentPath.includes("03"),
             
 
         },
         {
             id: "04",
-            title : "Operators in C++",
+            title : "The Java Environment",
             isActive: currentPath.includes("04"),
             
 
         },
         {
             id: "05",
-            title : "Functions in C++",
+            title : "Java Program Structure",
             isActive: currentPath.includes("05"),
             
 
         },
         {
             id: "06",
-            title : "Loops in C++",
+            title : "Simple Java Program",
             isActive: currentPath.includes("06"),
             
 
         },
         {
             id: "07",
-            title : "IO in C++",
+            title : " Variables in JAVA",
             isActive: currentPath.includes("07"),
             
 
         },
         {
             id: "08",
-            title : "Conditional Statements in C++",
+            title : " Data Types in JAVA",
             isActive: currentPath.includes("08"),
             
 
         },
         {
             id: "09",
-            title : "Comments in C++",
+            title : "Constants in JAVA",
             isActive: currentPath.includes("09"),
             
 
         },
         {
             id: "10",
-            title : "Reference Variables in C++",
+            title : "JAVA Type Casting or Type Conversion",
             isActive: currentPath.includes("10"),
             
 
         },
         {
             id: "11",
-            title : "Variables and Data types",
+            title : "Operators in JAVA ",
             isActive: currentPath.includes("11"),
             
 
         },
         {
             id: "12",
-            title : "Strings in C++",
+            title : "Decision making & branching ",
             isActive: currentPath.includes("12"),
             
 
         },
         {
             id: "13",
-            title : "Pointer , Call by reference",
+            title : "Decision making & looping ",
             isActive: currentPath.includes("13"),
             
 
         },
         {
             id: "14",
-            title : "Pointer Arithmetic 2",
+            title : "Classes & Objects ",
             isActive: currentPath.includes("14"),
             
 
         },
         {
             id: "15",
-            title : "Pointer Arithmetic",
+            title : "Constructor ",
             isActive: currentPath.includes("15"),
             
 
         },
         {
             id: "16",
-            title : "Pointer and Dynamic mem alloc",
+            title : " Inheritance",
             isActive: currentPath.includes("16"),
             
 
         },
         {
             id: "17",
-            title : "Access Specifiers",
+            title : "overloading and overriding",
             isActive: currentPath.includes("17"),
             
 
         },
         {
             id: "18",
-            title : " Friend Functions and friend class",
+            title : " Final class method & varriable ",
             isActive: currentPath.includes("18"),
             
 
         },
         {
             id: "19",
-            title : "Constructors and Destructors ",
+            title : "Arrays ",
             isActive: currentPath.includes("19"),
             
 
         },
         {
             id: "20",
-            title : "Types of Inheritance",
+            title : "Dynamic arrays",
             isActive: currentPath.includes("20"),
             
 
         },
         {
             id: "21",
-            title : "Static Members of a Class",
+            title : " Strings ",
             isActive: currentPath.includes("21"),
             
 
         },
         {
             id: "22",
-            title : " Polymorphism ",
+            title : "  Packages ",
             isActive: currentPath.includes("22"),
             
 
         },
         {
             id: "23",
-            title : "Object Oriented Programming in C++",
+            title : "Introduction to multithreading",
             isActive: currentPath.includes("23"),
             
 
         },
         {
             id: "24",
-            title : " Multipath inheritance ",
+            title : " Lifecycle of a thread ",
             isActive: currentPath.includes("24"),
             
 
         },
         {
             id: "25",
-            title : " Inheritance",
+            title : " Errors and exceptions",
             isActive: currentPath.includes("25"),
             
 
         },
         {
             id: "26",
-            title : "Function Overloading",
+            title : "Try and catch ",
             isActive: currentPath.includes("26"),
             
 
         },
         {
             id: "27",
-            title : " Pure virtual functions and abstract class",
+            title : " Finally and throw ",
             isActive: currentPath.includes("27"),
             
 
         },
         {
             id: "28",
-            title : "Runtime polymorphism",
+            title : "Input using Scanner class ",
             isActive: currentPath.includes("28"),
             
 
         },
-        {
-            id: "29",
-            title : "Function overriding ",
-            isActive: currentPath.includes("29"),
-            
-
-        },
-        {
-            id: "30",
-            title : "Operator Overloading",
-            isActive: currentPath.includes("30"),
-            
-
-        },
-        {
-            id: "31",
-            title : " File Handling in C++",
-            isActive: currentPath.includes("31"),
-            
-
-        },
-        {
-            id: "32",
-            title : "Exception Handling ",
-            isActive: currentPath.includes("32"),
-            
-
-        },
-        {
-            id: "33",
-            title : " Lambda Functions ",
-            isActive: currentPath.includes("33"),
-            
-
-        },
-        {
-            id: "34",
-            title : "Smart Pointers ",
-            isActive: currentPath.includes("34"),
-            
-
-        },
-        {
-            id: "35",
-            title : "Templates in C++",
-            isActive: currentPath.includes("35"),
-            
-
-        },
         
-
     ];
 
 

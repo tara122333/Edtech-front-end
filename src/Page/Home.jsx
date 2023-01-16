@@ -9,7 +9,7 @@ const Home = () => {
   
   return (
     <>
-        <div>
+        <div className='pb-20'>
             { type === "token" && <TokenPage/>}
             { type === "course" && <Course/>}
             { type === "notes" && <h1>Notes</h1>}  

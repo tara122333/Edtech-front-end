@@ -9,6 +9,8 @@ import Register from "./Page/Register";
 import CoreCppHoc from "./HOC/CoreCPPHOC/CoreCppHoc";
 import CoreJavaHoc from "./HOC/CoreJAVAHOC/CoreJavaHoc";
 import CoreJavaCourse from "./Components/Course/CoreJAVA/CoreJavaCourse";
+import CppWithDsaHoc from "./HOC/CPPWithDSAHOC/CppWithDsaHoc";
+import Temp from "./Components/Temp";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
 
       <TokenHOC path="/token" exact element={Token}/>
       <CoreCppHoc path="/course/Core-Concept-C++/:id" exact element={CoreCppCourse}/>
+      <CppWithDsaHoc path="/course/DSA-C++/:id" exact element={Temp}/>
       <CoreJavaHoc path="/course/Core-Concept-Java/:id" exact element={CoreJavaCourse}/>
     </div>
   );

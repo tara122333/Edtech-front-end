@@ -12,7 +12,7 @@ const CoreJavaLayout = (props) => {
           <div className='w-full lg:w-1/4 h-[500px] md:h-[600px] lg:h-[700px] overflow-y-scroll'>
             <CoreJava />
           </div>
-          <div className='w-full lg:w-3/4 bg-black'>
+          <div className='w-full lg:w-3/4'>
               {props.children}
           </div>
         </div>

@@ -1,3 +1,4 @@
+import { Route,Routes} from "react-router-dom";
 
 
 import HomeHOC from "./HOC/HomeHOC";
@@ -11,13 +12,16 @@ import CoreJavaHoc from "./HOC/CoreJAVAHOC/CoreJavaHoc";
 import CoreJavaCourse from "./Components/Course/CoreJAVA/CoreJavaCourse";
 import CppWithDsaHoc from "./HOC/CPPWithDSAHOC/CppWithDsaHoc";
 import Temp from "./Components/Temp";
+import Error404 from "./Components/Error/Error404";
 
 function App() {
   return (
     <div className="App">
       <HomeHOC path="/:type" exact element={Home}/>
-      <HomeHOC path="/" exact element={Register}/>
-
+      <HomeHOC path="/" exact element={Token}/>
+      <Routes>
+        <Route path="/registration/page" element={<Register />} />
+      </Routes>
       <TokenHOC path="/token" exact element={Token}/>
       <CoreCppHoc path="/course/Core-Concept-C++/:id" exact element={CoreCppCourse}/>
       <CppWithDsaHoc path="/course/DSA-C++/:id" exact element={Temp}/>

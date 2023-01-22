@@ -15,6 +15,7 @@ const Home = () => {
             { type === "notes" && <h1>Notes</h1>}  
             { type === "placement" && <h1>Placement</h1>}
             { type === "live" && <h1>Live</h1>}
+            
         </div>
     </>
   )

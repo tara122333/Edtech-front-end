@@ -49,6 +49,7 @@ const Register = () => {
             <h1 className='text-lg font-bold'>| This is Free Course |</h1>
         </div>
         <hr />
+        <div className='flex flex-col justify-center items-center lg:flex-row gap-3 lg:gap-6'>
         <div className='py-4 cursor-pointer'>
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
                 target=" _blank" className='flex justify-center items-center cursor-pointer'>
@@ -57,6 +58,15 @@ const Register = () => {
                 </h1>
             </a>
 
+        </div>
+        <div className='py-4 cursor-pointer'>
+            <a href='/course'  className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Already Enrolled
+                </h1>
+            </a>
+
+        </div>
         </div>
 
         <hr />
@@ -131,12 +141,26 @@ const Register = () => {
                     <p>Click this enroll button then fill google form and upload Screenshot.</p>
 
                     <div>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
-                    target=" _blank" className='flex justify-center items-center cursor-pointer'>
-                    <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
-                        Enroll Now
-                    </h1>
-                </a>
+                    <div className='flex flex-col justify-center items-center lg:flex-row gap-3 lg:gap-6'>
+        <div className='py-4 cursor-pointer'>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
+                target=" _blank" className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Enroll Now
+                </h1>
+            </a>
+
+        </div>
+        <div className='py-4 cursor-pointer'>
+            <a href='/course'
+                className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Already Enrolled
+                </h1>
+            </a>
+
+        </div>
+        </div>
                     </div>
                     
                 </div>
@@ -151,12 +175,25 @@ const Register = () => {
             </din>
 
             <div className='py-12'>
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
-                    target=" _blank" className='flex justify-center items-center cursor-pointer'>
-                    <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
-                        Enroll Now
-                    </h1>
-                </a>
+            <div className='flex flex-col justify-center items-center lg:flex-row gap-3 lg:gap-6'>
+        <div className='py-4 cursor-pointer'>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
+                target=" _blank" className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Enroll Now
+                </h1>
+            </a>
+
+        </div>
+        <div className='py-4 cursor-pointer'>
+            <a href='/course' className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Already Enrolled
+                </h1>
+            </a>
+
+        </div>
+        </div>
 
             </div>
 

@@ -89,8 +89,8 @@ export default function Token({isOpen,setIsOpen}) {
                               <div onClick={submit} className="w-full text-center bg-purple-500 text-white py-2 rounded-lg cursor-pointer font-semibold">
                                   Access
                               </div>
-                              <a href=' https://docs.google.com/forms/u/0/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/alreadyresponded?usp=sf_link' target={"_blank"} className='w-full text-center bg-purple-500 text-white py-2 rounded-lg cursor-pointer font-semibold'>
-                                  Generate Token
+                              <a href='/registration/page' target={"_blank"} className='w-full text-center bg-purple-500 text-white py-2 rounded-lg cursor-pointer font-semibold'>
+                                  I have not Token
                               </a>
                             </div>
                         </div>

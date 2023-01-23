@@ -18,12 +18,13 @@ function App() {
   return (
     <div className="App">
       <HomeHOC path="/:type" exact element={Home}/>
-      <HomeHOC path="/" exact element={Token}/>
+      <HomeHOC path="/" exact element={Register}/>
       <Routes>
         <Route path="/registration/page" element={<Register />} />
       </Routes>
-      <TokenHOC path="/token" exact element={Token}/>
-      <CoreCppHoc path="/course/Core-Concept-C++/:id" exact element={CoreCppCourse}/>
+      <TokenHOC path="/auth/token" exact element={Token}/>
+      {/* <CoreCppHoc path="/course/Core-Concept-C++/:id" exact element={CoreCppCourse}/> */}
+      <CppWithDsaHoc path="/course/Core-Concept-C++/:id" exact element={Temp}/>
       <CppWithDsaHoc path="/course/DSA-C++/:id" exact element={Temp}/>
       <CoreJavaHoc path="/course/Core-Concept-Java/:id" exact element={CoreJavaCourse}/>
     </div>

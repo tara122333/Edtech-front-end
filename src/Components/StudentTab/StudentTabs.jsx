@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import { Link, useParams } from "react-router-dom";
+import {CgNotes} from 'react-icons/cg';
+import {RiLiveLine} from 'react-icons/ri';
+import {MdWorkOutline,MdOutlineExplore} from 'react-icons/md'
 
 const MobileTabs = ()=>{
 
@@ -7,19 +10,25 @@ const MobileTabs = ()=>{
         {
           id: "course",
           name: "Course",
+          icon : <MdOutlineExplore/>
         },
+        {
+            id: `live`,
+            name: "LiveMentorship",
+            icon : <RiLiveLine />
+          },
+          
         {
           id: "notes",
           name: "Notes",
+          icon : <CgNotes />
         },
         {
           id: 'placement',
           name: "Placement",
+          icon : <MdWorkOutline/>
         },
-        {
-          id: `live`,
-          name: "LiveMentorship",
-        },
+        
       ]); 
 
       const {type} = useParams();
@@ -32,7 +41,7 @@ const MobileTabs = ()=>{
                     allTypes.map((items)=>(
                         <Link to={`/${items.id}`}>
                             <div className={type=== items.id ? "flex relative justify-center items-center flex-col text-xl text-red-400" : "flex justify-center items-center flex-col text-xl"}>
-                                {items.name}
+                                {items.icon}
                                 <div className={type === items.id ? "absolute -top-3 w-full h-2 border-t-2 border-red-400" : ""} />
                                 <h5 className="text-sm">
                                     {items.name}
@@ -50,21 +59,27 @@ const MobileTabs = ()=>{
 const LargeTabs = ()=>{
     const [allTypes] = useState([
         {
-          id: "course",
-          name: "Course",
-        },
-        {
-          id: "notes",
-          name: "Notes",
-        },
-        {
-          id: 'placement',
-          name: "Placement",
-        },
-        {
-          id: `live`,
-          name: "LiveMentorship",
-        },
+            id: "course",
+            name: "Course",
+            icon : <MdOutlineExplore/>
+          },
+          {
+            id: `live`,
+            name: "LiveMentorship",
+            icon : <RiLiveLine />
+          },
+
+          {
+            id: "notes",
+            name: "Notes",
+            icon : <CgNotes />
+          },
+          {
+            id: 'placement',
+            name: "Placement",
+            icon : <MdWorkOutline/>
+          },
+          
       ]); 
 
       const {type} = useParams();
@@ -76,10 +91,10 @@ const LargeTabs = ()=>{
                 {
                     allTypes.map((items)=>(
                         <Link to={`/${items.id}`}>
-                            <div className={type=== items.id ? "flex relative justify-center items-center flex-col text-xl text-red-400" : "flex justify-center items-center flex-col text-xl"}>
-                                {items.name}
+                            <div className={type=== items.id ? "flex relative justify-center items-center flex-col text-4xl text-red-400" : "flex justify-center items-center flex-col text-3xl"}>
+                                {items.icon}
                                 <div className={type === items.id ? "absolute -top-3 w-full h-2 border-t-2 border-red-400" : ""} />
-                                <h5 className="text-sm">
+                                <h5 className="text-xl">
                                     {items.name}
                                 </h5>
                             </div>

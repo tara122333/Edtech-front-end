@@ -244,70 +244,70 @@ const CoreJava = () => {
         {
             id: "29",
             title : "Binary Trees (part-II)",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("29"),
             access_Link : "https://www.google.com/"
             
         },
         {
             id: "30",
             title : "Binary Trees (part-III)",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("30"),
             access_Link : "https://www.google.com/"
             
         },
         {
             id: "31",
             title : "Binary Search Trees (part-I)",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("31"),
             access_Link : "https://www.google.com/"
             
         },
         {
             id: "32",
             title : "Binary Search Trees (part-II)",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("32"),
             access_Link : "https://www.google.com/"
             
         },
         {
             id: "33",
             title : "Heap",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("33"),
             access_Link : "https://www.google.com/"
             
         },
         {
             id: "34",
             title : "Hashing",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("34"),
             access_Link : "https://www.google.com/"
             
         },
         {
             id: "35",
             title : "Tries",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("35"),
             access_Link : "https://www.google.com/"
             
         },
         {
             id: "36",
             title : "Graphs (part-I)",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("36"),
             access_Link : "https://www.google.com/"
             
         },
         {
             id: "37",
             title : "Graphs (part-II)",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("37"),
             access_Link : "https://www.google.com/"
             
         },
         {
             id: "38",
             title : "Graphs (part-III)",
-            isActive: currentPath.includes("28"),
+            isActive: currentPath.includes("38"),
             
         },
         

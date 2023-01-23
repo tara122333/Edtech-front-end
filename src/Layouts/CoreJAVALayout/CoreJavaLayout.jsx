@@ -1,20 +1,18 @@
 import React from 'react'
-
 import HomeNavbar from '../../Components/Navbar/HomeNavbar'
 import StudentTabs from '../../Components/StudentTab/StudentTabs'
-import CoreCpp from '../../Components/Course/CoreCPP/CoreCpp'
+import CoreJava from '../../Components/Course/CoreJAVA/CoreJava'
 
-const CoreCppLayout = (props) => {
-
+const CoreJavaLayout = (props) => {
   return (
     <>
         <HomeNavbar />
         <StudentTabs />
         <div className='flex flex-col-reverse gap-2 lg:flex-row lg:gap-4 pb-20'>
           <div className='w-full lg:w-1/4 h-[500px] md:h-[600px] lg:h-[700px] overflow-y-scroll'>
-            <CoreCpp />
+            <CoreJava />
           </div>
-          <div className='w-full lg:w-3/4 bg-black'>
+          <div className='w-full lg:w-3/4'>
               {props.children}
           </div>
         </div>
@@ -22,4 +20,4 @@ const CoreCppLayout = (props) => {
   )
 }
 
-export default CoreCppLayout
+export default CoreJavaLayout

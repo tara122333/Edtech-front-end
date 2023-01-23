@@ -11,9 +11,9 @@ const CoreCppCourse = () => {
   return (
     <>
         <div>
-        {id === "01" && <Video video = "686570362?h=bcb2adb46c" />}
+        {id === "01" && <Video video = "686570332?h=87c553f1c2" />}
         {id === "02" && <Video video = "686570362?h=bcb2adb46c" />}
-        {id === "03" && <Video video = "686570362?h=bcb2adb46c" />}
+        {id === "03" && <Video video = "791778364?h=3de7369ca2" />}
         {id === "04" && <Video video = "686570362?h=bcb2adb46c" />}
         {id === "05" && <Video video = "686570362?h=bcb2adb46c" />}
         {id === "06" && <Video video = "686570362?h=bcb2adb46c" />}

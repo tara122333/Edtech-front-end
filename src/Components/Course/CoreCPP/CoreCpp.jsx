@@ -240,7 +240,7 @@ const CoreCpp = () => {
         <div className='flex flex-col justify-center items-center py-12'>
             {
                 CoreCPPDetails.map((data)=>(
-                    <CourseContent {...data} />
+                    <CourseContent {...data} url="Core-Concept-C++"/>
                 ))
             }
         </div>

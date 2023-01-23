@@ -49,6 +49,7 @@ const Register = () => {
             <h1 className='text-lg font-bold'>| This is Free Course |</h1>
         </div>
         <hr />
+        <div className='flex flex-col justify-center items-center lg:flex-row gap-3 lg:gap-6'>
         <div className='py-4 cursor-pointer'>
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
                 target=" _blank" className='flex justify-center items-center cursor-pointer'>
@@ -58,12 +59,23 @@ const Register = () => {
             </a>
 
         </div>
+        <div className='py-4 cursor-pointer'>
+            <a href='/course'  className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Already Enrolled
+                </h1>
+            </a>
+
+        </div>
+        </div>
 
         <hr />
         <div className='py-5 px-3'>
             <h1 className='text-xl font-semibold text-red-500 md:text-3xl md:py-5'>How to enroll course ?</h1>
             <h3 className='text-lg font-mono md:py-2'>This is 3 step process</h3>
             <h1 className='text-xl lg:text-2xl font-bold'>Please Read Carefully and Do not upload fake screenshot otherwise your Registeration not acceptable</h1>
+
+            <h1 className='text-xl font-bold lg:text-2xl'>Please Read Carefully and do not upload fake screenshot Otherwise your Registration not acceptable</h1>
 
             <din className="flex flex-col gap-5 md:gap-8 py-2 md:py-5">
                 <hr />
@@ -130,12 +142,26 @@ const Register = () => {
                     <p>Click this enroll button then fill google form and upload Screenshot.</p>
 
                     <div>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
-                    target=" _blank" className='flex justify-center items-center cursor-pointer'>
-                    <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
-                        Enroll Now
-                    </h1>
-                </a>
+                    <div className='flex flex-col justify-center items-center lg:flex-row gap-3 lg:gap-6'>
+        <div className='py-4 cursor-pointer'>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
+                target=" _blank" className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Enroll Now
+                </h1>
+            </a>
+
+        </div>
+        <div className='py-4 cursor-pointer'>
+            <a href='/course'
+                className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Already Enrolled
+                </h1>
+            </a>
+
+        </div>
+        </div>
                     </div>
                     
                 </div>
@@ -150,12 +176,25 @@ const Register = () => {
             </din>
 
             <div className='py-12'>
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
-                    target=" _blank" className='flex justify-center items-center cursor-pointer'>
-                    <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
-                        Enroll Now
-                    </h1>
-                </a>
+            <div className='flex flex-col justify-center items-center lg:flex-row gap-3 lg:gap-6'>
+        <div className='py-4 cursor-pointer'>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIuTIyJrTm0IwG7Qne8PjvxFk4cy9Mz5wScD0GM71ewgHsNw/viewform?usp=sf_link'
+                target=" _blank" className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Enroll Now
+                </h1>
+            </a>
+
+        </div>
+        <div className='py-4 cursor-pointer'>
+            <a href='/course' className='flex justify-center items-center cursor-pointer'>
+                <h1 className='px-12 py-4 bg-purple-500 text-2xl font-bold rounded-lg text-yellow-50'>
+                    Already Enrolled
+                </h1>
+            </a>
+
+        </div>
+        </div>
 
             </div>
 

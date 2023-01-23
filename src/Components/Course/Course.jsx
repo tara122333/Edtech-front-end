@@ -18,12 +18,7 @@ const Course = () => {
             title : "Data Structure And Algorithm",
             desc : "Data Structure And Algorithm",
         },
-        {
-            id : "Cp",
-            img : "https://student-platform-assets.s3.ap-south-1.amazonaws.com/course-images/Screenshot+2022-08-21+at+11.39.50+AM.png",
-            title : "Competitive Programming (Self paced)",
-            desc : "Competitive Programming (Self paced)",
-        },
+
         {
             id : "Core-Concept-Java",
             img : "https://student-platform-assets.s3.ap-south-1.amazonaws.com/courses/e673ba615e0cbe346cfb6df3dce89d20",

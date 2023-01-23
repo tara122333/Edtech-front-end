@@ -30,7 +30,7 @@ const Course = () => {
     
   return (
     <>
-        <div className='flex gap-4  flex-col justify-center items-center lg:flex-row lg:flex-wrap lg:gap-6'>
+        <div className='flex gap-8  flex-col justify-center items-center lg:flex-row lg:flex-wrap lg:gap-6 px-4 py-4'>
             {
                 Courses.map((data)=>(
                     <CoursePoster {...data} />

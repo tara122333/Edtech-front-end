@@ -15,7 +15,7 @@ export default function Token({isOpen,setIsOpen}) {
 
     const submit = () => {
 
-      if(tokenData.user_token === "TARA"){
+      if(tokenData.user_token === "TXRXYTXX"){
         localStorage.setItem(
           "tokenData",
           JSON.stringify({token : tokenData.user_token})

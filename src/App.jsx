@@ -24,8 +24,8 @@ function App() {
       </Routes>
       <TokenHOC path="/auth/token" exact element={Token}/>
       {/* <CoreCppHoc path="/course/Core-Concept-C++/:id" exact element={CoreCppCourse}/> */}
-      <CppWithDsaHoc path="/course/Core-Concept-C++/:id" exact element={Temp}/>
-      <CppWithDsaHoc path="/course/DSA-C++/:id" exact element={Temp}/>
+      {/* <CppWithDsaHoc path="/course/Core-Concept-C++/:id" exact element={Temp}/> */}
+      {/* <CppWithDsaHoc path="/course/DSA-C++/:id" exact element={Temp}/> */}
       <CoreJavaHoc path="/course/Core-Concept-Java/:id" exact element={CoreJavaCourse}/>
     </div>
   );
